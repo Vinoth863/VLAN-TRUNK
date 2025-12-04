@@ -1,0 +1,22 @@
+# VLAN-TRUNK
+ VLAN-MULTI SWITCH TRUNK
+ A VLAN trunk link was configured between the two LAN areas to allow multiple VLANs to pass through the same interface. The trunk carried VLAN2 and VLAN3 so that devices assigned to the same VLAN in both LAN segments could communicate across the network.
+
+# SWITCH CLI-COMMANDS
+**1.SWITCH TO SWITCH**
+
+Switch (config)#int fa 0/5
+
+Switch (config - if)# switchport mode access
+
+Switch (config - if# switchport mode trunk
+
+**2.VLAN CLI COMMAND**
+
+Switch (config# int fa 0/1
+
+Switch(config-if)# switchport mode access
+
+Switch(config-if)# switchport access van 2
+
+**(SAME FOR VLAN COMMAND ALL DEVICES)**
