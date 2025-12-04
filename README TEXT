@@ -3,6 +3,7 @@
 A VLAN trunk link was established between the two switches to carry multiple VLANs across the connection. Both switches were configured with the same VLAN IDs (VLAN 2 and VLAN 3) to ensure seamless VLAN traffic forwarding and proper inter-switch communication for the connected devices.
 
 # SWITCH CLI-COMMANDS
+
 **1.SWITCH TO SWITCH**
 
 Switch (config)#int fa 0/5
