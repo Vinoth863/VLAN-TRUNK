@@ -1,5 +1,8 @@
 # VLAN-TRUNK
- VLAN-MULTI SWITCH TRUNK
+# DEFINICTION
+A VLAN trunk is a network link that carries traffic for multiple VLANs between switches or between a switch and a router. Trunk links use tagging protocols, such as IEEE 802.1Q, to identify which VLAN each frame belongs to, enabling inter-VLAN communication over a single physical connection.
+
+# PROJECT DEFINITION
 A VLAN trunk link was established between the network (192.168.0.0/24) two switches to carry multiple VLANs across the connection. Both switches were configured with the same VLAN IDs (VLAN 2 and VLAN 3) to ensure seamless VLAN traffic forwarding and proper inter-switch communication for the connected devices.
 
 # SWITCH CLI-COMMANDS
